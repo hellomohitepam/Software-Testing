@@ -18,6 +18,7 @@ Software Testing is important because:
 - It ensures reliability, security, and high performance.
 - It helps save time and cost.
 - It improves customer satisfaction.
+- it adheres to industry standards, regulations, and other critical compliance requirements.
 
 ---
 
