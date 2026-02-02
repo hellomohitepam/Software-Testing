@@ -26,23 +26,24 @@ The test cases are executed.
 Software tester compares the actual outputs with the expected outputs.
 Defects, if any, are fixed and re-tested.
 
-##Tools used for Black box testing largely depend on the type of black box testing you are doing.
+# Tools used for Black box testing largely depend on the type of black box testing you are doing.
 
 For Functional/ Regression Tests you can use – QTP, Selenium
 For Non-Functional Tests, you can use – LoadRunner, Jmeter
 
-Advantages:
-User-Oriented Approach
-No Programming Knowledge Required
-Independent and Objective
-Effective for Large Applications
-Disadvantages:
-Limited Test Coverage
-Inefficient for Deep-Level Bugs
-Difficult Root Cause Analysis
-High Dependency on Requirement Quality
+# Advantages:
+* User-Oriented Approach
+* No Programming Knowledge Required
+* Independent and Objective
+* Effective for Large Applications
+  
+# Disadvantages:
+* Limited Test Coverage
+* Inefficient for Deep-Level Bugs
+* Difficult Root Cause Analysis
+* High Dependency on Requirement Quality
 
-##Challenges in Black Box Testing (and How to Overcome Them)
+# Challenges in Black Box Testing (and How to Overcome Them)
 Challenge	How to Overcome It
 Limited Visibility of Code	Combine with White/Gray Box Testing to trace logic-level bugs.
 Dependence on Clear Requirements	Use a Requirement Traceability Matrix (RTM) to ensure full coverage.
@@ -53,10 +54,10 @@ Dynamic Interfaces & Frequent Changes	Implement Continuous Integration (CI) to k
 Ambiguous Expected Results	Encourage cross-functional reviews to clarify acceptance criteria.
 Limited Security/Performance Insight	Add penetration and performance testing to complement black box methods.
 
-##When Not to Use Black Box Testing
+# When Not to Use Black Box Testing
 While Black Box Testing is ideal for validating functionality and user behavior, it’s not suitable for every testing scenario. 
 
-Situation	Why Black Box Testing Isn’t Ideal	Better Alternative
+# Situation	Why Black Box Testing Isn’t Ideal	Better Alternative
 1. Unit or Component-Level Testing	Requires internal code knowledge to test individual modules or logic paths.	White Box Testing
 2. Debugging or Root Cause Analysis	Black Box only reveals failures, not the reason behind them.	White Box Testing
 3. Algorithm or Logic Validation	Internal logic and data flow can’t be verified from outputs alone.	White Box / Gray Box Testing
