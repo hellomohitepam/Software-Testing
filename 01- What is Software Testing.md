@@ -81,8 +81,3 @@ Maintenance testing is performed on an existing operational system to ensure tha
 - **Impact Analysis Testing** – Identifies areas affected by changes
 - **Configuration Testing** – Tests different hardware and software configurations
 
----
-
-## Additional Resources
-
-To explore a variety of testing tools and find the ones that suit your project requirements, refer to a comprehensive list of software testing tools.
