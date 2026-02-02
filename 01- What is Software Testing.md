@@ -31,16 +31,6 @@ Software Testing is important because:
 
 3. **Bloomberg Terminal Crash** (April 2015)  
    **Impact:** 300,000+ traders affected, £3 billion government debt sale postponed
-
----
-
-## What are the Benefits of Software Testing?
-
-1. Cost-Effective  
-2. Security  
-3. Improved Product Quality  
-4. Customer Satisfaction  
-
 ---
 
 ## Types of Software Testing
