@@ -4,9 +4,14 @@
 
 Testing in Software Engineering is the process of evaluating a software product to determine whether it meets the specified requirements and to identify defects, gaps, or missing requirements.
 
-Software testing can broadly be classified into:
+Software testing methodologies can broadly be classified into:
 - White Box Testing
 - Black Box Testing
+- Grey Box Testing
+
+There are various software testing types for 
+- Manual testing
+- Automated testing
 
 ---
 
