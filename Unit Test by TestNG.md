@@ -1,18 +1,102 @@
 # Introduction of TestNG
 
-- **TestNG** is a testing framework inspired from **JUnit** and **NUnit** but introducing some new functionalities that make it more powerful and easier to use.
+- **TestNG** is a test management framework inspired from **JUnit** and **NUnit** but introducing some new functionalities that make it more powerful and easier to use.
 
 - **TestNG** is designed to cover all categories of tests: unit, functional, end-to-end, integration, etc.
 
-# Advantages of TestNG
+---
 
+# Advantages of TestNG
 - Manages test suites and test cases
 - Helps in prioritizing of tests
-- Helps in grouping of tests
-- Parallel execution
+- Supports parallel execution, grouping, dependencies
+- Better test configuration
+- Supports annotations
 - Reporting
 
-in testNG we do not have a main method
+---
+
+* TestNG turns the normal java method into a test case using annotations `@Test`
+- Method must be public
+- Must return void
+- No main() method needed
+* ⚠️Never rely on method order unless explicitly specified
+
+---
+
+<img width="1222" height="673" alt="image" src="https://github.com/user-attachments/assets/d6bbc3da-fbf7-4681-91f9-ed34316ccd27" />
+
+```java
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+
+public class BeforeAfterExample {
+
+    @BeforeMethod
+    public void setup() {
+        System.out.println("Login to application");
+    }
+
+    @Test
+    public void addItemTest() {
+        System.out.println("Add item test");
+    }
+
+    @Test
+    public void removeItemTest() {
+        System.out.println("Remove item test");
+    }
+
+    @AfterMethod
+    public void teardown() {
+        System.out.println("Logout from application");
+    }
+}
+```
+```
+For addItemTest
+Login to application
+Add item test
+Logout from application
+
+For removeItemTest
+Login to application
+Remove item test
+Logout from application
+```
+* Run Once for each test method `@BeforeMethod → @Test → @AfterMethod`
+
+---
+
+### What is priority?
+priority is an attribute of @Test used to control the order of test execution (Default priority = 0).
+
+`@Test(priority = 1)`
+- 1️⃣ Lower value runs first
+- 2️⃣ Same priority → alphabetical order
+- 3️⃣ No priority mentioned = priority 0
+
+NOTE: ❌ Do NOT use priority to handle test dependencies because If one fails, others will still run.
+
+----
+
+### Enabling & Disabling Tests
+`@Test(enabled = false)`
+
+* Why do we need this?
+- Skip unstable tests
+- Ignore work-in-progress tests
+- Temporarily disable tests without deleting code
+
+
+
+
+
+
+
+
+
 
 # Topics
 
@@ -32,7 +116,7 @@ public void Test1() {
     // java code
 }
 ```
-<img width="1222" height="673" alt="image" src="https://github.com/user-attachments/assets/d6bbc3da-fbf7-4681-91f9-ed34316ccd27" />
+
 
 
 # Topics
