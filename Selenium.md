@@ -88,11 +88,23 @@ public class SeleniumWithTestNG {
 - Element is clickable
 - Element is present in DOM
 
-### 🔹 Why Explicit Wait is Better?
-- ✔ More control
-- ✔ More reliable
-- ✔ Prevents unnecessary waiting
-- ✔ Best practice in industry
+## 🔹 Why Explicit Wait is Better?
+
+Because sometimes:
+
+- Element is present but not clickable
+- Element is visible but not interactable
+- Page loads partially
+
+## Implicit wait only waits for:
+- ✔ Element to be present
+
+## Explicit wait can wait for:
+- ✔ Visibility
+- ✔ Clickable
+- ✔ Text to appear
+- ✔ Alert to appear
+- ✔ URL change
 
 `
 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
