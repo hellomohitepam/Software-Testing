@@ -122,7 +122,11 @@ NOTE: ❌ Do NOT use priority to handle test dependencies because If one fails, 
 ## What Are Groups?
 Groups allow you to categorize tests so you can run selected tests instead of all tests.
 
-## What is testng.xml?
+`@Test(groups = {"smoke", "regression"})`
+
+---
+
+## What is testng.xml? (Test execution controller 🎛️)
 It is a configuration file that:
 
 - Controls which classes to run
@@ -130,7 +134,72 @@ It is a configuration file that:
 - Controls parallel execution
 - Controls test suites
 
+### Additionally:
+- CI/CD tools (Jenkins, GitHub Actions) use testng.xml
+- Production frameworks always execute through XML
+- Better for automation pipelines
 
+---
+
+`
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.tests.LoginTest"/>
+            <class name="com.tests.CartTest"/>
+        </classes>
+
+    </test>
+
+</suite>
+`
+
+## Data-Driven Testing (DataProvider)
+
+### It allows us to:
+- Pass multiple sets of data
+- Run the same test multiple times
+- Avoid duplicate test methods
+
+DataProvider does NOT create one big test instead of Multiple independent executions of the same test method.
+
+``` java
+@DataProvider(name = "loginData")
+public Object[][] getData() {
+    return new Object[][] {
+        {"admin", "1234"},
+        {"user1", "abcd"},
+        {"guest", "xyz"}
+    };
+}
+
+@Test(dataProvider = "loginData")
+public void loginTest(String username, String password) {
+    driver.findElement(By.id("username")).sendKeys(username);
+    driver.findElement(By.id("password")).sendKeys(password);
+    driver.findElement(By.id("loginBtn")).click();
+}
+
+// So internally, TestNG creates something like:
+//loginTest("admin", "1234")
+//loginTest("wrongUser", "wrongPass")
+//loginTest("user1", "abcd")
+```
+
+`@DataProvider(name = "loginData", parallel = true)`
+- 👉 Each data row iteration can run in parallel (in separate threads).
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Topics
 
@@ -177,12 +246,14 @@ we can pass the parameter at suit level class level
 - **DataProviders** are used for data-driven testing, which means the same test case can be run with a different set of data. It is a very powerful feature of TestNG and is effectively used during framework development. There are a few points you should know about DataProvider:
 
 - It marks methods for supplying the data to other methods.
-
 - Annotated methods return an array of Object, i.e. `Object[][]`.
-
 - DataProvider can have a name, and it will be used in other methods by using its name.
-
 - DataProvider can be implemented in the same class or a different class.
-
 - A Data Provider is a method annotated with `@DataProvider`.
+
+
+
+
+
+
 
