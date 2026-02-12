@@ -26,6 +26,7 @@
 
 <img width="1222" height="673" alt="image" src="https://github.com/user-attachments/assets/d6bbc3da-fbf7-4681-91f9-ed34316ccd27" />
 
+
 ```java
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
@@ -33,9 +34,13 @@ import org.testng.annotations.AfterMethod;
 
 public class BeforeAfterExample {
 
-    @BeforeMethod
+    @BeforeClass
     public void setup() {
         System.out.println("Login to application");
+    }
+    @BeforeMethod
+    public void print() {
+        System.out.println("New Test going to happen");
     }
 
     @Test
@@ -65,7 +70,20 @@ Login to application
 Remove item test
 Logout from application
 ```
+
 * Run Once for each test method `@BeforeMethod → @Test → @AfterMethod`
+* `@BeforeClass` Runs only once before all tests in the class.
+* `@AfterClass` Runs only once after all tests in the class.
+
+---
+
+### NOTE : (ISOLATION)
+Each test prepares and cleans its own data so that execution order does not affect results.
+
+`createUserTest → has its own user
+deleteUserTest → has its own user
+editUserTest → has its own user
+`
 
 ---
 
@@ -81,7 +99,7 @@ NOTE: ❌ Do NOT use priority to handle test dependencies because If one fails, 
 
 ----
 
-### Enabling & Disabling Tests
+## Enabling & Disabling Tests
 `@Test(enabled = false)`
 
 * Why do we need this?
@@ -89,12 +107,28 @@ NOTE: ❌ Do NOT use priority to handle test dependencies because If one fails, 
 - Ignore work-in-progress tests
 - Temporarily disable tests without deleting code
 
+---
 
+## dependsOnMethods
+- Run this test only if another test passes.
+- `@Test(dependsOnMethods = "loginTest")`
 
+### 🔥 Important Difference
+- Priority controls order.
+- Dependency controls execution logic.
 
+---
 
+## What Are Groups?
+Groups allow you to categorize tests so you can run selected tests instead of all tests.
 
+## What is testng.xml?
+It is a configuration file that:
 
+- Controls which classes to run
+- Controls which groups to include/exclude
+- Controls parallel execution
+- Controls test suites
 
 
 
