@@ -82,11 +82,6 @@ public class SeleniumWithTestNG {
 ### Unlike implicit wait:
 - It is not global
 - It waits only where you tell it to wait
-- 
-### Examples of conditions:
-- Element is visible
-- Element is clickable
-- Element is present in DOM
 
 ## 🔹 Why Explicit Wait is Better?
 
@@ -97,14 +92,14 @@ Because sometimes:
 - Page loads partially
 
 ## Implicit wait only waits for:
-- ✔ Element to be present
+- ✔ Element to be present in the DOM
 
-## Explicit wait can wait for:
-- ✔ Visibility
-- ✔ Clickable
-- ✔ Text to appear
-- ✔ Alert to appear
-- ✔ URL change
+## Explicit wait can wait for: (a SPECIFIC CONDITION you define)
+- ✔ Visibility       `ExpectedConditions.visibilityOfElementLocated(By.id("loginBtn"))`
+- ✔ Clickable        `ExpectedConditions.elementToBeClickable(By.id("loginBtn"))`
+- ✔ Text to appear   `ExpectedConditions.textToBePresentInElementLocated(By.id("status"),"Success")`
+- ✔ Alert to appear  `ExpectedConditions.alertIsPresent()`
+- ✔ URL change       `ExpectedConditions.urlContains("dashboard")`
 
 `
 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
