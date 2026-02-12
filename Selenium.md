@@ -7,16 +7,21 @@ Selenium is an automation tool used to control a web browser (Chrome, Firefox, E
 - Typing text
 - Submitting forms
 
-## WebDriver is the core interface that allows you to automate web browsers directly by controlling them the same way a real user would.
+## WebDriver :
+is the core interface that allows you to automate web browsers directly by controlling them the same way a real user would.
 - Talks to the browser
 - Sends commands (open URL, click, type)
 - Receives responses
 
 ## Key points about WebDriver
 - It communicates directly with the browser, not through JavaScript (unlike Selenium RC)
+- One WebDriver instance per thread. That’s why advanced frameworks use: `ThreadLocal<WebDriver>`, Driver factories, Parallel-safe setup
+
+
 - Supports multiple browsers
 - Works with many languages (Java, Python, C#, JavaScript, etc.)
 - Follows the W3C WebDriver standard
+
 
 `
 Think of it as:
@@ -106,13 +111,51 @@ WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("username")));
 `
 
+## Page Object Model (POM)
+Page Object Model is a design pattern where each web page is represented as a class, and all locators and actions of that page are stored inside that class.
 
+```java
+// LoginPage.java
+public class LoginPage {
 
+    WebDriver driver;
 
+    By username = By.id("username");
+    By password = By.id("password");
+    By loginBtn = By.id("loginBtn");
 
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
+    }
 
+    public void enterUsername(String user) {
+        driver.findElement(username).sendKeys(user);
+    }
 
+    public void enterPassword(String pass) {
+        driver.findElement(password).sendKeys(pass);
+    }
 
+    public void clickLogin() {
+        driver.findElement(loginBtn).click();
+    }
+}
+```
+
+```java
+//LoginTest.java
+LoginPage login = new LoginPage(driver);
+
+login.enterUsername("admin");
+login.enterPassword("1234");
+login.clickLogin();
+```
+
+### There are two common POM styles:
+- 1️⃣ Basic POM (what we just saw)
+- 2️⃣ PageFactory POM (uses @FindBy annotation)
+
+### Assertions Should Be in Test Class
 
 
 
