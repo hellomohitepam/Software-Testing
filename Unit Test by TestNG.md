@@ -116,7 +116,7 @@ NOTE: ❌ Do NOT use priority to handle test dependencies because If one fails, 
 ### 🔥 Important Difference
 - Priority controls order.
 - Dependency controls execution logic.
-
+> Dependency overrides priority.
 ---
 
 ## What Are Groups?
@@ -131,7 +131,7 @@ It is a configuration file that:
 
 - Controls which classes to run
 - Controls which groups to include/exclude
-- Controls parallel execution
+- Controls parallel execution  -------------------------------------------------------------------?
 - Controls test suites
 
 ### Additionally:
