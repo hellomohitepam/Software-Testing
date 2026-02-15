@@ -114,6 +114,9 @@ wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("username")));
 ## Page Object Model (POM)
 Page Object Model is a design pattern where each web page is represented as a class, and all locators and actions of that page are stored inside that class.
 
+### There are two common POM styles:
+- 1️⃣ Basic POM 
+
 ```java
 // LoginPage.java
 public class LoginPage {
@@ -151,16 +154,74 @@ login.enterPassword("1234");
 login.clickLogin();
 ```
 
-### There are two common POM styles:
-- 1️⃣ Basic POM (what we just saw)
+
 - 2️⃣ PageFactory POM (uses @FindBy annotation)
 
-### Assertions Should Be in Test Class
+```java
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
+public class LoginPage {
 
+    WebDriver driver;
 
+    // PageFactory locators
+    @FindBy(id = "username")
+    WebElement username;
 
+    @FindBy(id = "password")
+    WebElement password;
 
+    @FindBy(id = "loginBtn")
+    WebElement loginBtn;
+
+    // Constructor
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
+    // Actions
+    public void enterUsername(String user) {
+        username.sendKeys(user);                 //interally it calls like this driver.findElement(By.id("username")).sendKeys("admin");
+    }
+
+    public void enterPassword(String pass) {
+        password.sendKeys(pass);
+    }
+
+    public void clickLogin() {
+        loginBtn.click();
+    }
+}
+
+```
+| Feature                 | Normal Page Object Model (POM)    | PageFactory                           |
+| ----------------------- | --------------------------------- | ------------------------------------- |
+| **Element declaration** | Uses `By` locators                | Uses `@FindBy` annotations            |
+| **Finding elements**    | `driver.findElement()` every time | WebElements initialized automatically |
+| **Code length**         | More code                         | Less boilerplate code                 |
+| **Readability**         | Moderate                          | Cleaner & more readable               |
+| **Initialization**      | No special init required          | Requires `PageFactory.initElements()` |
+| **Performance**         | Elements located when called      | Lazy initialization (finds when used) |
+| **Maintenance**         | Slightly harder in large projects | Easier to maintain                    |
+| **Best for**            | Beginners / small projects        | Frameworks & large automation suites  |
+| **Caching support**     | Not available directly            | Supports `@CacheLookup`               |
+| **Industry usage**      | Used but basic                    | Very common in real frameworks        |
+
+### Normal Page Object Model (POM)
+- Test calls method
+- Selenium instantly searches element in DOM
+- If not present → ❌ Exception immediately
+- ✅ So Normal POM = Immediate Element Search
+
+### PageFactory
+- PageFactory.initElements() creates a proxy (not real element yet)
+- When action happens (click, sendKeys)
+- THEN Selenium finds the element
+- ✅ So PageFactory = Element search starts at usage time
 
 
 
