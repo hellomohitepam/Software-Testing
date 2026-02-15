@@ -23,6 +23,17 @@
 * ⚠️Never rely on method order unless explicitly specified
 
 ---
+### TestNG execution flow:
+- ✅ @BeforeSuite – Runs once before the entire test suite starts.
+- ✅ @BeforeTest – Runs before <test> tag execution in testng.xml.
+- ✅ @BeforeClass – Runs once before the first test method in a class.
+- ✅ @BeforeMethod – Runs before every @Test method.
+- ✅ @Test – Actual test case execution.
+- ✅ @AfterMethod – Runs after every @Test method.
+- ✅ @AfterClass – Runs once after all test methods in a class.
+- ✅ @AfterTest – Runs after <test> tag execution finishes.
+- ✅ @AfterSuite – Runs once after the entire test suite ends.
+
 
 <img width="1222" height="673" alt="image" src="https://github.com/user-attachments/assets/d6bbc3da-fbf7-4681-91f9-ed34316ccd27" />
 
@@ -71,10 +82,6 @@ Remove item test
 Logout from application
 ```
 
-* Run Once for each test method `@BeforeMethod → @Test → @AfterMethod`
-* `@BeforeClass` Runs only once before all tests in the class.
-* `@AfterClass` Runs only once after all tests in the class.
-
 ---
 
 ### NOTE : (ISOLATION)
@@ -110,7 +117,7 @@ NOTE: ❌ Do NOT use priority to handle test dependencies because If one fails, 
 ---
 
 ## dependsOnMethods
-- Run this test only if another test passes.
+- Run this test only if another test passes else Skip.
 - `@Test(dependsOnMethods = "loginTest")`
 
 ### 🔥 Important Difference
@@ -123,6 +130,10 @@ NOTE: ❌ Do NOT use priority to handle test dependencies because If one fails, 
 Groups allow you to categorize tests so you can run selected tests instead of all tests.
 
 `@Test(groups = {"smoke", "regression"})`
+
+## dependsOnGroups
+- Test method will run only after all tests in a specific group finish successfully else skip.
+- `@Test(dependsOnGroups = "smoke")`
 
 ---
 
@@ -162,8 +173,9 @@ It is a configuration file that:
 </suite>
 `
 
-## Data-Driven Testing (DataProvider)
-
+## DataProvider
+- **DataProviders** are used for data-driven testing, which means the same test case can be run with a different set of data.
+- - Apart from **Parameters**, there is another way to achieve parameterization which is by using **DataProvider** in TestNG.
 ### It allows us to:
 - Pass multiple sets of data
 - Run the same test multiple times
@@ -197,60 +209,196 @@ public void loginTest(String username, String password) {
 `@DataProvider(name = "loginData", parallel = true)`
 - 👉 Each data row iteration can run in parallel (in separate threads).
 
+## ✅ XML vs Programmatic Data Approaches
+| Feature                       | **XML Data Approach**                      | **Programmatic Data Approach**                                         |
+| ----------------------------- | ------------------------------------------ | ---------------------------------------------------------------------- |
+| **Definition**                | Test data passed through `testng.xml` file | Test data created inside Java code (DataProvider, loops, arrays, etc.) |
+| **Where data is stored**      | External XML file                          | Inside test class or utility class                                     |
+| **Flexibility**               | Good for environment/config changes        | Very flexible for dynamic data generation                              |
+| **Code modification needed?** | ❌ No code change required                | ✅ Need to update code                                                 |
+| **Best use case**             | Passing parameters (URL, browser, env)     | Multiple test datasets (login data, search data)                       |
+| **Maintenance**               | Easier for non-developers                  | Requires coding knowledge                                              |
+| **Complex data handling**     | Limited                                    | Very powerful (read Excel, DB, API)                                    |
+| **Execution control**         | Strong (suite/test/class level)            | Focused mainly on test data logic                                      |
+| **Real-world usage**          | Suite configuration                        | Data-driven testing                                                    |
 
+---
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Assertions
+- Assertions in TestNG are used to verify expected vs actual results.
+- 
+* They check conditions like:
+- Is the title correct?
+- Is element displayed?
+- Are two values equal?
+> If the condition is false → TestNG throws AssertionError.
 
-# Topics
+## Hard Assertions (Default Assertions)
+- Hard assertions stop execution immediately when they fail.
 
-- What is TestNG XML file? Usage.
-- How to create TestNG XML?
-- How to run tests from XML file
-- TestNG Report
+### ✔ assertEquals() :
+```java
+String actualTitle = driver.getTitle();
+Assert.assertEquals(actualTitle, "YouTube");
+// If not equal → test stops right there.
+```
 
-# Annotations in TestNG
+### ✔ assertTrue() :
+```java
+// Checks boolean condition.
+WebElement logo = driver.findElement(By.id("logo"));
+Assert.assertTrue(logo.isDisplayed());
+```
+### ✔ assertFalse() :
+```java
+Assert.assertFalse(driver.findElements(By.id("error")).isEmpty());
+```
 
-- We can control the sequence and priority of the methods, which allows us to execute Java code before and after a certain point.
-- Annotations are placed over the method with the symbol `@`.
+### ✔ assertNotEquals()
+```java
+Assert.assertNotEquals(actualTitle, "Google");
+```
+
+## Soft Assertions (Multiple Validations)
+- Soft assertions allow multiple validations even if one fails.
 
 ```java
-@Annotations
-public void Test1() {
-    // java code
+SoftAssert soft = new SoftAssert();
+
+soft.assertEquals(driver.getTitle(), "YouTube");
+soft.assertTrue(driver.findElement(By.id("logo")).isDisplayed());
+
+soft.assertAll(); // VERY IMPORTANT
+```
+### Why assertAll() is required?
+- It collects all failures and reports them at the end.
+- Without it → test may PASS even if validations fail ❌
+
+## ✅ When to Use Which? (Real Industry Practice)
+* ✔ Use Hard Assert when:
+- Login must succeed
+- Page must load
+- Critical workflow validation
+
+* ✔ Use Soft Assert when:
+- Checking multiple UI elements
+- Validating layout or content
+- Non-blocking checks
+
+## ✅ What are TestNG Listeners?
+- A Listener is a special interface that “listens” to test execution events and runs code automatically when something happens.
+
+### Example events:
+- Test starts
+- Test passes
+- Test fails
+- Suite begins
+- Suite ends
+> You don’t call listeners manually — TestNG triggers them internally.
+
+### 🎯 Why Use Listeners?
+* Listeners help you:
+- ✔ Capture screenshots when test fails
+- ✔ Create custom logs
+- ✔ Build HTML reports
+- ✔ Send email notifications
+- ✔ Track execution status
+> Instead of writing code inside every test, you centralize logic.
+
+### ✅ ITestListener — Most Common Listener
+
+```java
+public class MyListener implements ITestListener {
+}
+```
+> Then override methods you need.
+
+## 🔥 Important ITestListener Methods (In Depth)
+
+* 🟢 onStart() - Runs when test execution starts.
+- Initialize report
+- Open log file
+
+* 🟢 onTestStart() - Runs before each test method.
+- Logging test start
+- Start timer
+
+---
+
+* 🟢 onTestSuccess() -Runs when test passes.
+- Add entry in report
+- Mark test status
+
+---
+
+* 🔴 onTestFailure() - Runs when test fails.
+- Take screenshot
+- Attach logs
+- Add failure message
+
+* 🟡 onTestSkipped() - Runs when test is skipped (dependency failure).
+
+---
+
+🔵 onFinish() - Runs after all tests complete.
+- Close report
+- Generate summary
+
+```java
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+import org.testng.ITestContext;
+
+public class CustomListener implements ITestListener {
+
+    public void onStart(ITestContext context) {
+        System.out.println("Suite Started");
+    }
+
+    public void onTestStart(ITestResult result) {
+        System.out.println("Test Started: " + result.getName());
+    }
+
+    public void onTestSuccess(ITestResult result) {
+        System.out.println("Test Passed: " + result.getName());
+    }
+
+    public void onTestFailure(ITestResult result) {
+        System.out.println("Test Failed: " + result.getName());
+    }
+
+    public void onFinish(ITestContext context) {
+        System.out.println("Suite Finished");
+    }
 }
 ```
 
+## ✅ How to Attach Listener
+### Method 1 — Annotation (Easy)
+```java
+@Listeners(CustomListener.class)
+public class YoutubeTest {
+}
+```
+### Method 2 — testng.xml
+```java
+<listeners>
+   <listener class-name="org.example.CustomListener"/>
+</listeners>
+```
 
+```
+onStart()
+   ↓
+onTestStart()
+   ↓
+@Test runs
+   ↓
+onTestSuccess() / onTestFailure()
+   ↓
+onFinish()
 
-# Topics
-
-- Prioritizing Tests
-- Disabling Tests
-- Dependency Tests in TestNG
-- AlwaysRun property
-- Grouping Tests
-- Assertion in TestNG
-- Assert.assertTrue() & Assert.assertFalse()
-- Assert.assertEquals()
-- Parameter in TestNG
-- Data Provider
-
-while automating you testcases you need to put verification point or check points
-we can pass the parameter at suit level class level 
-
-
-# Data Provider
-
-- Apart from **Parameters**, there is another way to achieve parameterization which is by using **DataProvider** in TestNG.
-
-- **DataProviders** are used for data-driven testing, which means the same test case can be run with a different set of data. It is a very powerful feature of TestNG and is effectively used during framework development. There are a few points you should know about DataProvider:
-
-- It marks methods for supplying the data to other methods.
-- Annotated methods return an array of Object, i.e. `Object[][]`.
-- DataProvider can have a name, and it will be used in other methods by using its name.
-- DataProvider can be implemented in the same class or a different class.
-- A Data Provider is a method annotated with `@DataProvider`.
-
+```
 
 
 
