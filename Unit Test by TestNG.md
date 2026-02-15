@@ -114,6 +114,15 @@ NOTE: ❌ Do NOT use priority to handle test dependencies because If one fails, 
 - Ignore work-in-progress tests
 - Temporarily disable tests without deleting code
 
+### Enforce Execution Limits — timeOut
+```java
+@Test(timeOut = 10000)
+public void youtubeSearch() {
+    driver.get("https://www.youtube.com");
+}
+// If page load > 10 seconds → FAIL.
+```
+
 ---
 
 ## dependsOnMethods
