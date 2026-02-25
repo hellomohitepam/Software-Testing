@@ -44,13 +44,13 @@
 - A REST API (Representational State Transfer API) is a way to design web services so that different systems can communicate using HTTP in a simple, scalable, and predictable way.
 
 ## 🧱 1️⃣ Core Principles of REST API
-- ✅ 1. Client–Server Separation
+- ✅ 1. Client–Server Separation {res can be html(if web broswer only) or json }
 - ✅ 2. Statelessness
 - ✅ 3. Resource-Based Design
 - ✅ 4. Uniform Interface (Same HTTP verbs, Same response formats)
 - ✅ 5. Layered System (Clients don’t know if they talk directly to server or through: API gateway, Proxy, Load balancer)
 
-## 🔄 2️⃣ HTTP Methods in REST (Deep Explanation)
+## 🔄 2️⃣ HTTP Methods in REST
 
 | Method | Action         | Example    |
 | ------ | -------------- | ---------- |
@@ -97,11 +97,195 @@
 - Filtering `/orders?status=paid`
 - Sorting `/products?sort=price_desc`
 
+---
+
 # 🧼 SOAP API
-- SOAP (Simple Object Access Protocol) is a strict, XML-based protocol used for exchanging structured information between systems over a network.
+- SOAP (Simple Object Access Protocol) is a to design strict web service, XML-based protocol used for exchanging structured information between systems over a network.
 
+## 🧱 1️⃣ SOAP Core Concepts
+- ✅ XML-Based Messaging
+- ✅ REST is a style but SOAP is an actual protocol with defined standards: Message format, Security rules, Error handling, Service contracts
+- ✅ Platform Independent (SOAP works with: HTTP, SMTP, TCP, JMS. But REST mainly uses HTTP.)
 
+## 📦 2️⃣ SOAP Message Structure
+### A SOAP message has 4 main parts:
+- 📨 Envelope (Mandatory)
+```
+<Envelope>
+</Envelope>
+```
 
+- 🔐 Header (Optional)
+> Contains metadata: Authentication, Tokens, Routing info
+```
+<Header>
+  <AuthToken>XYZ</AuthToken>
+</Header>
+```
+
+- 📄 Body (Mandatory)
+> Actual request or response data.
+
+```
+<Body>
+  <GetOrder>
+    <id>100</id>
+  </GetOrder>
+</Body>
+```
+
+- ⚠️ Fault (Error Handling)
+```
+<Fault>
+  <faultcode>Client</faultcode>
+  <faultstring>Invalid Request</faultstring>
+</Fault>
+```
+
+## 📜 3️⃣ WSDL — The Brain of SOAP
+- WSDL (Web Services Description Language) is an XML file describing:
+1. Available methods
+2. Request format
+3. Response format
+4. Endpoint URL
+> 👉 Think of WSDL as a contract between client and server.
+```
+<operation name="GetUser">
+</operation>
+```
+
+## 🔐 4️⃣ SOAP Security (Why Enterprises Use It)
+> SOAP has built-in enterprise security standards: WS-Security
+### Supports:
+- XML Encryption
+- XML Signature
+- Security tokens
+- Message integrity
+> This is more advanced than typical REST token auth.
+
+## ⚙️ 5️⃣ SOAP vs REST
+
+| Feature        | SOAP                 | REST               |
+| -------------- | -------------------- | ------------------ |
+| Type           | Protocol             | Architecture style |
+| Data format    | XML only             | JSON/XML/etc       |
+| Strictness     | Very strict          | Flexible           |
+| Speed          | Slower (heavy XML)   | Faster             |
+| Security       | Built-in WS-Security | External auth      |
+| Contract       | WSDL                 | OpenAPI optional   |
+| Enterprise use | High                 | High (modern)      |
+
+## 🔄 6️⃣ SOAP Communication Flow
+
+- SOAP is an application communication protocol used for sending and receiving messages
+- SOAP is platform independent
+
+### A SOAP message is an ordinary XML document containing the following elements:
+- An Envelope element that identifies the XML document as a SOAP message
+- Header element that contains header information
+- A Body element that contains call and response information
+- A Fault element containing errors and status information
+> All the elements above are declared in the default namespace for the SOAP envelop
+
+```
+<?xml version="1.0"?>
+
+<soap:Envelope
+xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+soap:encodingStyle="http://www.w3.org/2003/05/soap-encoding">
+
+<soap:Header>
+...
+</soap:Header>
+
+<soap:Body>
+...
+  <soap:Fault>
+  ...
+  </soap:Fault>
+</soap:Body>
+
+</soap:Envelope>
+```
+
+## 🧱 1️⃣ SOAP Core Concepts
+- ✅ XML-Based Messaging
+- ✅ REST is a style — but SOAP is an actual protocol with defined standards:
+1. Message format
+2. Security rules
+3. Error handling
+4. Service contracts
+- ✅ Platform Independent
+
+## 📦 2️⃣ SOAP Message Structure
+> A SOAP message has 4 main parts:
+- 📨 Envelope (Mandatory)
+- 🔐 Header (Optional) - Contains metadata: Authentication, Tokens, Routing info
+- 📄 Body (Mandatory) - Actual request or response data.
+- ⚠️ Fault (Error Handling) 
+
+## 📜 3️⃣ WSDL — The Brain of SOAP
+### WSDL (Web Services Description Language) is an XML file describing:
+- Available methods
+- Request format
+- Response format
+- Endpoint URL
+> 👉 Think of WSDL as a contract between client and server.
+
+## 🔐 4️⃣ SOAP Security
+> SOAP has built-in enterprise security standards: WS-Security
+> Supports:
+> XML Encryption
+> XML Signature
+> Security tokens
+> Message integrity
+
+## ⚙️ 5️⃣ SOAP vs REST
+| Feature        | SOAP                 | REST               |
+| -------------- | -------------------- | ------------------ |
+| Type           | Protocol             | Architecture style |
+| Data format    | XML only             | JSON/XML/etc       |
+| Strictness     | Very strict          | Flexible           |
+| Speed          | Slower (heavy XML)   | Faster             |
+| Security       | Built-in WS-Security | External auth      |
+| Contract       | WSDL                 | OpenAPI optional   |
+| Enterprise use | High                 | High (modern)      |
+
+## 🔄 6️⃣ SOAP Communication Flow
+### Step-by-step:
+- Client reads WSDL
+- Client builds XML SOAP request
+- Sends via HTTP POST
+- Server processes request
+- Server returns SOAP XML response
+
+## 🧩 7️⃣ Example SOAP Request & Response
+```
+// Req
+<soap:Envelope>
+  <soap:Body>
+    <AddNumbers>
+      <a>5</a>
+      <b>10</b>
+    </AddNumbers>
+  </soap:Body>
+</soap:Envelope>
+```
+```
+// res
+<soap:Envelope>
+  <soap:Body>
+    <AddNumbersResponse>
+      <result>15</result>
+    </AddNumbersResponse>
+  </soap:Body>
+</soap:Envelope>
+```
+## 🏗️ 8️⃣ When SOAP is Used Today
+### Even though REST is popular, SOAP is still used in:
+- ✅ Banking systems
+-  Airline booking systems
+- ✅ Legacy corporate APIs
 
 
 
