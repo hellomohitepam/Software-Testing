@@ -4,7 +4,7 @@
 
 JSON - Java Script Object notation
 
-Client can send txt,XL, pdf(high weighted, no encryption) -> Convert to JSON(weighted, encryption)
+Client can send txt, XML, pdf(high weighted, no encryption) -> Convert to JSON(less weighted, encryption)
 
 # What is JSON?
 - JSON – Java Script Object Notation
