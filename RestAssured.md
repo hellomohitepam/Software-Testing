@@ -91,9 +91,18 @@ for(Header hd: myheader)
 
 ---
 
-# Response validation - Data
-# Schema validation - type of data
+- Response validation - Data
+- Schema validation - type of data
 
+- Json Response(.json) -> Json schema(.json)
+- XML Response(.XML) -> xml schema(.xsd)
+
+<img width="1353" height="381" alt="image" src="https://github.com/user-attachments/assets/22d18661-27c3-43a8-85dd-b7558af64752" />
+
+<img width="1190" height="380" alt="image" src="https://github.com/user-attachments/assets/80dcdbc4-485e-4c91-b54c-7d0a5fb9fc36" />
+
+
+- postman only support JSON validataion schema (directly)
 
 
 
