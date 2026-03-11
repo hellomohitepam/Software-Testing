@@ -79,9 +79,20 @@ for(Header hd: myheader)
 
 ---
 
+<img width="1479" height="653" alt="image" src="https://github.com/user-attachments/assets/a889f6ae-30ce-488e-89d4-4a0f915e0854" />
 
+---
 
+<img width="1039" height="601" alt="image" src="https://github.com/user-attachments/assets/6ddd5e96-ee93-40b5-b2ea-26269296c4cb" />
 
+<img width="973" height="563" alt="image" src="https://github.com/user-attachments/assets/0f3fd7dd-bb11-4e7b-9a53-3f72707af73c" />
+
+<img width="893" height="353" alt="image" src="https://github.com/user-attachments/assets/0c785fc3-e8e3-4dfd-8694-906d84168a97" />
+
+---
+
+# Response validation - Data
+# Schema validation - type of data
 
 
 
