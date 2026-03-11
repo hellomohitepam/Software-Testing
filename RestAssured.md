@@ -59,15 +59,25 @@ for(Header hd: myheader)
 ```
 ---
 <img width="1222" height="711" alt="image" src="https://github.com/user-attachments/assets/94d1c6b2-65b3-4906-bcd2-8485ef7d1555" />
+
 ---
-# JSONObject
+
+# JSON Parsing
+
 <img width="1369" height="640" alt="image" src="https://github.com/user-attachments/assets/9819f2a2-a9eb-49fa-9976-751ef0aa34fd" />
 <img width="1143" height="415" alt="image" src="https://github.com/user-attachments/assets/a891d522-8af8-47b6-bc0d-6cac6411025e" />
 
 ---
 
+# XML Parsing
 
+<img width="1404" height="496" alt="image" src="https://github.com/user-attachments/assets/bc621f9b-0af8-42c3-9cd1-3e1af28bd230" />
 
+---
+
+<img width="1359" height="471" alt="image" src="https://github.com/user-attachments/assets/c589a351-8712-4a92-929a-c50444389087" />
+
+---
 
 
 
