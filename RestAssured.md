@@ -36,7 +36,7 @@ then()
 3) using pojo(plain old java object) class
 4) using external json file
 > throughout follow one 
-
+{gson}
 
 # Path & Query parameters 
 # Cookies & headers
@@ -103,6 +103,39 @@ for(Header hd: myheader)
 
 
 - postman only support JSON validataion schema (directly)
+
+- Serialization - pojo(high weigth & less secure) ---> json
+- De-serilization - json ---> pojo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
