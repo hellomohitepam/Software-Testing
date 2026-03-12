@@ -121,7 +121,25 @@ for(Header hd: myheader)
 <img width="837" height="437" alt="image" src="https://github.com/user-attachments/assets/87971618-f407-4740-b374-f468f3db10c6" />
 
 # Authorizations 
+- Basic
 
+  <img width="877" height="464" alt="image" src="https://github.com/user-attachments/assets/942fcdf6-d1cf-4f68-a946-1c1b35a87483" />
+- Digest
+
+<img width="690" height="405" alt="image" src="https://github.com/user-attachments/assets/3778484a-5a5d-4fe7-8215-07391f866769" />
+- Preemtpive
+
+<img width="901" height="468" alt="image" src="https://github.com/user-attachments/assets/f67e28e6-06fd-4db2-b345-d8566dd5f9e0" />
+- Bearer token
+
+<img width="948" height="467" alt="image" src="https://github.com/user-attachments/assets/5419d844-69e3-4eda-9155-b2263d17f1d1" />
+- oauth 1.0, 2.0
+
+<img width="1203" height="346" alt="image" src="https://github.com/user-attachments/assets/115f6dc5-d28d-4906-89a9-7286e8b5c950" />
+> 32:00
+<img width="1000" height="316" alt="image" src="https://github.com/user-attachments/assets/ee772d5c-72ea-4403-a7e4-9594fc627371" />
+- API key
+<img width="1297" height="354" alt="image" src="https://github.com/user-attachments/assets/3c125a4d-7412-4e78-a558-17f55e41324f" />
 
 
 
