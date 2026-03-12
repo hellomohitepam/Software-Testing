@@ -32,13 +32,17 @@ then()
 
 ## How many ways we can create a request body
 1) HashMap
+
 <img width="534" height="402" alt="image" src="https://github.com/user-attachments/assets/6781b648-efd2-404e-a59a-901d80076760" />
 2) using org.json
+
 <img width="604" height="453" alt="image" src="https://github.com/user-attachments/assets/f17d1d6f-f2a2-4804-bc76-06f684db259f" />
 3) using pojo(plain old java object) class
+
 <img width="642" height="455" alt="image" src="https://github.com/user-attachments/assets/ae86ef07-d0ff-4b2b-9aa9-226fb0896d8b" />
 4) using external json file
 > throughout follow one 
+
 {gson}
 
 # Path & Query parameters 
