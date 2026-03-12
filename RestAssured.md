@@ -32,8 +32,11 @@ then()
 
 ## How many ways we can create a request body
 1) HashMap
+<img width="534" height="402" alt="image" src="https://github.com/user-attachments/assets/6781b648-efd2-404e-a59a-901d80076760" />
 2) using org.json
+<img width="604" height="453" alt="image" src="https://github.com/user-attachments/assets/f17d1d6f-f2a2-4804-bc76-06f684db259f" />
 3) using pojo(plain old java object) class
+<img width="642" height="455" alt="image" src="https://github.com/user-attachments/assets/ae86ef07-d0ff-4b2b-9aa9-226fb0896d8b" />
 4) using external json file
 > throughout follow one 
 {gson}
@@ -103,11 +106,14 @@ for(Header hd: myheader)
 
 
 - postman only support JSON validataion schema (directly)
+> import com.fasterxml.jackson.databind.ObjectMapper;
+# Serialization - pojo(high weigth & less secure) ---> json
+<img width="1164" height="448" alt="image" src="https://github.com/user-attachments/assets/e454d77e-f416-4373-83ee-bb050406de59" />
 
-- Serialization - pojo(high weigth & less secure) ---> json
-- De-serilization - json ---> pojo
+# De-serilization - json ---> pojo
+<img width="837" height="437" alt="image" src="https://github.com/user-attachments/assets/87971618-f407-4740-b374-f468f3db10c6" />
 
-
+# Authorizations 
 
 
 
