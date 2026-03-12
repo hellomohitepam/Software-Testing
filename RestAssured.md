@@ -144,20 +144,26 @@ for(Header hd: myheader)
 <img width="1000" height="316" alt="image" src="https://github.com/user-attachments/assets/ee772d5c-72ea-4403-a7e4-9594fc627371" />
 
 - API key
+- 
 <img width="1297" height="354" alt="image" src="https://github.com/user-attachments/assets/3c125a4d-7412-4e78-a558-17f55e41324f" />
 
+# Faker library
+- JSON Object - {}
+- JSON Array - []
+- JSON Element - can be Object or Array
+ 
+<img width="518" height="80" alt="image" src="https://github.com/user-attachments/assets/1ecbef76-219c-4f46-9026-94eda4054139" />
+
+- practice of extracting
+
+# Chaining
+ITestContext context - pass as argument 
+- context.setAttribute("user_id",id) // test level
+- context.getSuite().setAttribute("user_id",id) // suite level
 
 
 
-
-
-
-
-
-
-
-
-
+ 
 
 
 
