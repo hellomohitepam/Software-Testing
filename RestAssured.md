@@ -161,16 +161,31 @@ ITestContext context - pass as argument
 - context.setAttribute("user_id",id) // test level
 - context.getSuite().setAttribute("user_id",id) // suite level
 
+---
 
+# FrameWork
+- What, How, Folder Structure,useability is objective of designing framework
+- Every automation tool 
+- diff URLs, end points. pojo, test cases, reports so many things we need to import
+  
+ # Objective
+ - Re-usuability
+ - Maintainability
+ - Readability
 
- 
+## Hybrid Driven - combination of data driven & modular driven
 
-
-
-
-
-
-
+# Phases
+1. understanding requirement (what kind of urls we have, req, res)
+   - Functional specifications (static) {start preparing test cases}
+   - Swagger ( format  of req, res)
+2. Choose automation tool {librarys}
+   - RestAssured Library
+3. Design
+   - What kind of folder structure is there
+   - what kind of files we need to create.
+4. Developement
+5. Execution + CI
 
 
 
