@@ -6,7 +6,7 @@
 framework, report
 
 
-BDD -> behaviour driven development
+BDD -> behaviour driven development   
 
 gerkin language which have some keyword which we use in BDD
 
@@ -164,9 +164,9 @@ ITestContext context - pass as argument
 ---
 
 # FrameWork
-- What, How, Folder Structure,useability is objective of designing framework
-- Every automation tool 
-- diff URLs, end points. pojo, test cases, reports so many things we need to import
+- What, How we can create Folder Structure,useability is objective of designing framework
+- Every automation tool require a framework
+- diff URLs, end points. pojo, test cases, reports so many things we need to maintain so thats why we need fram
   
  # Objective
  - Re-usuability
