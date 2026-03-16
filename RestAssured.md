@@ -187,8 +187,8 @@ ITestContext context - pass as argument
 4. Developement
 5. Execution + CI
 
-
-
+- Header & cookie - https://chatgpt.com/c/69b64bf0-8224-8324-b6d1-a476355a7097
+- Authentication - https://chatgpt.com/c/69b649f0-80b4-8324-9d85-7b43bb3f7c1d
 
 
 
