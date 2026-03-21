@@ -100,7 +100,7 @@
 ---
 
 # 🧼 SOAP API
-- SOAP (Simple Object Access Protocol) is a to design strict web service, XML-based protocol used for exchanging structured information between systems over a network.
+- SOAP (Simple Object Access Protocol)
 
 ## 🧱 1️⃣ SOAP Core Concepts
 - ✅ XML-Based Messaging
