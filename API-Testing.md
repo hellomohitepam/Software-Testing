@@ -8,7 +8,7 @@
 - Application software – Programs used by people to do tasks (e.g., Excel, Photoshop).
 
 ---
-
+```
 # 🔌 What is an API (Application Programming Interface)?
 - An API is a set of rules and tools that allows different software programs to communicate with each other in a structured way.
 - Instead of building everything from scratch, developers use APIs to request data or services from another system.
@@ -37,7 +37,7 @@
 - Documentation (APIs include docs that explain rules.)
 - Testing tools (Developers use tools to send API requests manually. {Postman, curl})
 - Gateways & Middleware (API Gateway for controls traffic, Load balancer for distributes requests)
-
+```
 ---
 
 # 🔑 REST API
