@@ -40,65 +40,6 @@
 ```
 ---
 
-# 🔑 REST API
-- A REST API (Representational State Transfer API) is a way to design web services so that different systems can communicate using HTTP in a simple, scalable, and predictable way.
-
-## 🧱 1️⃣ Core Principles of REST API
-- ✅ 1. Client–Server Separation {res can be html(if web broswer only) or json }
-- ✅ 2. Statelessness
-- ✅ 3. Resource-Based Design
-- ✅ 4. Uniform Interface (Same HTTP verbs, Same response formats)
-- ✅ 5. Layered System (Clients don’t know if they talk directly to server or through: API gateway, Proxy, Load balancer)
-
-## 🔄 2️⃣ HTTP Methods in REST
-
-| Method | Action         | Example    |
-| ------ | -------------- | ---------- |
-| GET    | Read data      | `/users`   |
-| POST   | Create         | `/users`   |
-| PUT    | Replace        | `/users/1` |
-| PATCH  | Partial update | `/users/1` |
-| DELETE | Remove         | `/users/1` |
-
-## 🧩 3️⃣ REST API URL Structure (Best Practices)
-`https://api.example.com/v1/users/10/products?category=phone&sort=price`
-### Breakdown:
-- Base URL → api.example.com
-- Version → /v1
-- Resource → /users
-- Resource ID → /10
-- Sub-resource → /products
-- Query params → ?category=phone&sort=price
-
-## 📦 4️⃣ Request Structure
-- Headers - Metadata about request.
-- Body - Used in POST/PUT/PATCH.
-- Path Params `/users/10` vs Query Params `/users?role=admin`
-
-## 📤 5️⃣ Response Structure
-> Good REST APIs return structured responses: JSON
-### Status Codes
-| Code | Meaning      |
-| ---- | ------------ |
-| 200  | Success      |
-| 201  | Created      |
-| 400  | Bad Request  |
-| 401  | Unauthorized |
-| 403  | Forbidden    |
-| 404  | Not Found    |
-| 500  | Server Error |
-
-## 🔐 6️⃣ Authentication in REST APIs
-- Bearer Token (JWT)
-- OAuth2 Used by: Google login, GitHub login through API integration
-
-## ⚡ 7️⃣ REST API Performance & Scaling
-- Pagination `/users?page=2&limit=20`
-- Filtering `/orders?status=paid`
-- Sorting `/products?sort=price_desc`
-
----
-
 # 🧼 SOAP API
 - SOAP (Simple Object Access Protocol)
 
@@ -181,6 +122,67 @@
 -  Airline booking systems
 - ✅ Legacy corporate APIs
 
+
+
+---
+# 🔑 REST API
+- A REST API (Representational State Transfer API) is a way to design web services so that different systems can communicate using HTTP in a simple, scalable, and predictable way.
+
+## 🧱 1️⃣ Core Principles of REST API
+- ✅ 1. Client–Server Separation {res can be html(if web broswer only) or json }
+- ✅ 2. Statelessness
+- ✅ 3. Resource-Based Design
+- ✅ 4. Uniform Interface (Same HTTP verbs, Same response formats)
+- ✅ 5. Layered System (Clients don’t know if they talk directly to server or through: API gateway, Proxy, Load balancer)
+
+## 🔄 2️⃣ HTTP Methods in REST
+
+| Method | Action         | Example    |
+| ------ | -------------- | ---------- |
+| GET    | Read data      | `/users`   |
+| POST   | Create         | `/users`   |
+| PUT    | Replace        | `/users/1` |
+| PATCH  | Partial update | `/users/1` |
+| DELETE | Remove         | `/users/1` |
+
+## 🧩 3️⃣ REST API URL Structure (Best Practices)
+`https://api.example.com/v1/users/10/products?category=phone&sort=price`
+### Breakdown:
+- Base URL → api.example.com
+- Version → /v1
+- Resource → /users
+- Resource ID → /10
+- Sub-resource → /products
+- Query params → ?category=phone&sort=price
+
+## 📦 4️⃣ Request Structure
+- Headers - Metadata about request.
+- Body - Used in POST/PUT/PATCH.
+- Path Params `/users/10` vs Query Params `/users?role=admin`
+
+## 📤 5️⃣ Response Structure
+> Good REST APIs return structured responses: JSON
+### Status Codes
+| Code | Meaning      |
+| ---- | ------------ |
+| 200  | Success      |
+| 201  | Created      |
+| 400  | Bad Request  |
+| 401  | Unauthorized |
+| 403  | Forbidden    |
+| 404  | Not Found    |
+| 500  | Server Error |
+
+## 🔐 6️⃣ Authentication in REST APIs
+- Bearer Token (JWT)
+- OAuth2 Used by: Google login, GitHub login through API integration
+
+## ⚡ 7️⃣ REST API Performance & Scaling
+- Pagination `/users?page=2&limit=20`
+- Filtering `/orders?status=paid`
+- Sorting `/products?sort=price_desc`
+
+---
 
 
 
