@@ -44,3 +44,40 @@
 
 <img width="1883" height="741" alt="image" src="https://github.com/user-attachments/assets/3f823436-f858-4108-9280-49446b9d1dce" />
 
+<img width="1248" height="659" alt="image" src="https://github.com/user-attachments/assets/c041d6e8-6965-417a-acdb-bc57eebb4864" />
+
+<img width="1235" height="832" alt="image" src="https://github.com/user-attachments/assets/ce4a4fb7-4686-4c71-ac8f-7774d68e390d" />
+
+<img width="1184" height="546" alt="image" src="https://github.com/user-attachments/assets/291ee3a6-e7f0-4d84-82a5-425e3879a311" />
+
+<img width="1172" height="540" alt="image" src="https://github.com/user-attachments/assets/d0a4b95d-caee-4b92-a180-e3d162765a8f" />
+
+- ancestor & parent be one but child and decendent can be multiple
+
+<img width="1182" height="614" alt="image" src="https://github.com/user-attachments/assets/87b17cf0-668a-4550-9364-a1cebdcf5e4a" />
+<img width="1388" height="115" alt="image" src="https://github.com/user-attachments/assets/3175e670-e52a-48bc-97c3-f1a242bfa98f" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
