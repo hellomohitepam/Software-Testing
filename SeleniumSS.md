@@ -32,7 +32,7 @@
 
 <img width="1742" height="657" alt="image" src="https://github.com/user-attachments/assets/6262fa13-be92-4d98-938d-2b7932ad934e" />
 
-<img width="1860" height="298" alt="image" src="https://github.com/user-attachments/assets/a6e58ae4-240f-4847-8996-7ea28ffc51d6" />
+<img width="1585" height="860" alt="image" src="https://github.com/user-attachments/assets/9b76d214-29c9-4fca-9469-7dd01697c78c" />
 
 - link text can be innerText but all innerText cannot be link.
 
