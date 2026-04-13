@@ -28,5 +28,14 @@
 
 <img width="1902" height="580" alt="image" src="https://github.com/user-attachments/assets/736cda55-542a-43fe-868c-00d6880e704f" />
 
+<img width="1044" height="176" alt="image" src="https://github.com/user-attachments/assets/6cf85fea-673d-45a2-aef3-907eb0841e68" />
+
 <img width="1742" height="657" alt="image" src="https://github.com/user-attachments/assets/6262fa13-be92-4d98-938d-2b7932ad934e" />
 
+<img width="1860" height="298" alt="image" src="https://github.com/user-attachments/assets/a6e58ae4-240f-4847-8996-7ea28ffc51d6" />
+
+- link text can be innerText but all innerText cannot be link.
+
+<img width="1459" height="255" alt="image" src="https://github.com/user-attachments/assets/62cf795f-cded-44cc-afce-219d5ed7cc0d" />
+
+ 
