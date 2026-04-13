@@ -55,6 +55,8 @@
 - ancestor & parent be one but child and decendent can be multiple
 
 <img width="1182" height="614" alt="image" src="https://github.com/user-attachments/assets/87b17cf0-668a-4550-9364-a1cebdcf5e4a" />
+
+<img width="1223" height="832" alt="image" src="https://github.com/user-attachments/assets/a4d22675-209e-4c15-88dc-3a23547daafe" />
 <img width="1388" height="115" alt="image" src="https://github.com/user-attachments/assets/3175e670-e52a-48bc-97c3-f1a242bfa98f" />
 
 
