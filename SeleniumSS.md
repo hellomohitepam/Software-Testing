@@ -10,11 +10,11 @@
 
 <img width="1317" height="631" alt="image" src="https://github.com/user-attachments/assets/abdcd390-70df-4458-ac22-e4a292cb3169" />
 
-- CSS goes Search from Top But XPath can go from Top or Down
-
 <img width="1203" height="654" alt="image" src="https://github.com/user-attachments/assets/2fbac975-07d1-4cdf-873e-f0ac7d565b7a" />
 
 <img width="1323" height="669" alt="image" src="https://github.com/user-attachments/assets/0b8b66a9-817c-4606-abaa-9acaf72a5ed4" />
+
+- CSS goes Search from Top But XPath can go from Top or Down
 
 <img width="1020" height="251" alt="image" src="https://github.com/user-attachments/assets/d3278ef2-5398-44ea-a831-080bbf9e9c9c" />
 
