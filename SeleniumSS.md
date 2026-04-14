@@ -28,7 +28,8 @@ to ensure nothing else broke
 
 <img width="1323" height="669" alt="image" src="https://github.com/user-attachments/assets/0b8b66a9-817c-4606-abaa-9acaf72a5ed4" />
 
-- CSS goes Search from Top But XPath can go from Top or Down
+- CSS Search from Top But XPath can serach either from Top or Down
+- linkText is used for exact matching of anchor text, while partialLinkText is used when only a portion of the link text is known.
 
 <img width="1020" height="251" alt="image" src="https://github.com/user-attachments/assets/d3278ef2-5398-44ea-a831-080bbf9e9c9c" />
 
