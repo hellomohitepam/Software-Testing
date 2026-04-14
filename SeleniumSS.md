@@ -7,12 +7,13 @@
 
 - Regression testing means testing the existing functionality to ensure new changes didn’t break anything else.
 - To ensure the overall system still works correctly after updates
-- Login bug fixed → tester checks:
-- signup
-- password reset
-- dashboard access
-- to ensure nothing else broke
-
+```
+Login bug fixed → tester checks:
+signup
+password reset
+dashboard access
+to ensure nothing else broke
+```   
 <img width="1113" height="385" alt="image" src="https://github.com/user-attachments/assets/8a533da4-a121-4f81-8aa7-011134551abf" />
 
 <img width="946" height="483" alt="image" src="https://github.com/user-attachments/assets/ee1bd6cb-c403-472e-8f6f-42cf5364b44c" />
