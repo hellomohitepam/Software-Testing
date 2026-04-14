@@ -51,7 +51,7 @@ to ensure nothing else broke
 
 <img width="1585" height="860" alt="image" src="https://github.com/user-attachments/assets/9b76d214-29c9-4fca-9469-7dd01697c78c" />
 
-- link text can be innerText but all innerText cannot be link.
+- All link text is innerText because it’s visible text inside <a> tags, but not all innerText is link text because only <a> elements are considered links.
 
 <img width="1459" height="255" alt="image" src="https://github.com/user-attachments/assets/62cf795f-cded-44cc-afce-219d5ed7cc0d" />
 
