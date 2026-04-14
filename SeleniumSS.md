@@ -1,4 +1,21 @@
 <img width="1551" height="860" alt="image" src="https://github.com/user-attachments/assets/6265067b-ab92-4a4f-a85b-2c9441577a31" />
+# 👉 What it is
+- Retesting means testing a specific bug again after it has been fixed.
+# 👉 Goal
+-To verify that the original defect is actually resolved.
+# 👉 Example
+- A login button was not working → developer fixes it
+- Tester runs the same test case again to confirm it now works
+# 👉 What it is
+- Regression testing means testing the existing functionality to ensure new changes didn’t break anything else.
+# 👉 Goal
+- To ensure the overall system still works correctly after updates
+# 👉 Example
+- Login bug fixed → tester checks:
+- signup
+- password reset
+- dashboard access
+- to ensure nothing else broke
 
 <img width="1113" height="385" alt="image" src="https://github.com/user-attachments/assets/8a533da4-a121-4f81-8aa7-011134551abf" />
 
