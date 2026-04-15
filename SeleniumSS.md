@@ -74,6 +74,9 @@ to ensure nothing else broke
 <img width="1223" height="832" alt="image" src="https://github.com/user-attachments/assets/a4d22675-209e-4c15-88dc-3a23547daafe" />
 <img width="1388" height="115" alt="image" src="https://github.com/user-attachments/assets/3175e670-e52a-48bc-97c3-f1a242bfa98f" />
 
+- 👉 following:: selects everything that appears after the current node in the HTML document order 
+- **❗ Except its own descendants (children inside it)**
+
 <img width="1224" height="479" alt="image" src="https://github.com/user-attachments/assets/40ced40e-5bbb-47e9-a2d0-2838345f1bc3" />
 
 <img width="1287" height="614" alt="image" src="https://github.com/user-attachments/assets/b0ca3442-1b56-41c0-9008-9717ca505bb5" />
