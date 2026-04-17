@@ -106,7 +106,11 @@ to ensure nothing else broke
 
 <img width="1614" height="840" alt="image" src="https://github.com/user-attachments/assets/6deb14ad-a640-4537-9453-998c025ababa" />
 
+<img width="1606" height="456" alt="image" src="https://github.com/user-attachments/assets/3f8dabcb-32f2-4cf7-a89d-5c0b1509c7f3" />
 
+<img width="1660" height="727" alt="image" src="https://github.com/user-attachments/assets/718a037e-1adc-4c36-88ef-848c50ef8a9a" />
+
+<img width="1280" height="408" alt="image" src="https://github.com/user-attachments/assets/af36322f-29c8-48de-9da2-5151158efdc3" />
 
 
 
