@@ -85,11 +85,24 @@ to ensure nothing else broke
 
 <img width="1162" height="415" alt="image" src="https://github.com/user-attachments/assets/c5ca99ff-cca7-4b8f-bcfc-4f940ea882d3" />
 
+<img width="659" height="206" alt="image" src="https://github.com/user-attachments/assets/ced90d8d-0c0c-477c-9cfb-cbfccad13ad9" />
 
+<img width="1586" height="324" alt="image" src="https://github.com/user-attachments/assets/9bc03db0-c158-49ec-b071-e278cd7bd06b" />
 
+- when we want to switch between windows we can use WiindowId.
+- use get methods only when launching browser window (WEB Page level ).
 
+<img width="1620" height="259" alt="image" src="https://github.com/user-attachments/assets/f311d2b2-7633-428f-a5c9-187b9f4f88bd" />
 
+- Static webElement for isDisplayed()
 
+<img width="1446" height="635" alt="image" src="https://github.com/user-attachments/assets/bb1125c1-e3c1-4305-819b-4f08a90f0880" />
+
+<img width="1425" height="542" alt="image" src="https://github.com/user-attachments/assets/c21716b5-5766-4af8-97c9-aed67ef414e2" />
+
+<img width="1252" height="591" alt="image" src="https://github.com/user-attachments/assets/78392547-67bd-4ba5-9bff-4c8036fe4f81" />
+
+<img width="1400" height="536" alt="image" src="https://github.com/user-attachments/assets/b12ab687-27b4-4b2b-8f62-76f7ab800375" />
 
 
 
