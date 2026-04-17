@@ -106,21 +106,30 @@ to ensure nothing else broke
 
 <img width="1614" height="840" alt="image" src="https://github.com/user-attachments/assets/6deb14ad-a640-4537-9453-998c025ababa" />
 
-<img width="1606" height="456" alt="image" src="https://github.com/user-attachments/assets/3f8dabcb-32f2-4cf7-a89d-5c0b1509c7f3" />
-
 <img width="1660" height="727" alt="image" src="https://github.com/user-attachments/assets/718a037e-1adc-4c36-88ef-848c50ef8a9a" />
 
 <img width="1280" height="408" alt="image" src="https://github.com/user-attachments/assets/af36322f-29c8-48de-9da2-5151158efdc3" />
 
+- if we opened multiple tabs then we use loops
 
+<img width="944" height="345" alt="image" src="https://github.com/user-attachments/assets/1d2492d6-d802-49fb-9acd-f62e6bcbbd62" />
 
+<img width="1518" height="367" alt="image" src="https://github.com/user-attachments/assets/e6c5544c-c467-4209-99a0-a8b6bf2c79f2" />
 
+<img width="1018" height="543" alt="image" src="https://github.com/user-attachments/assets/2738edd1-8e8c-4ac9-80e6-3f80ecb34a9f" />
 
+- alerts windows are not webElement
 
+<img width="1419" height="542" alt="image" src="https://github.com/user-attachments/assets/b956819c-0bbb-4027-b160-3225352e72ee" />
 
+<img width="1389" height="271" alt="image" src="https://github.com/user-attachments/assets/49902b86-c2ea-4784-83d9-d5863225d24e" />
 
+<img width="1492" height="704" alt="image" src="https://github.com/user-attachments/assets/f279836a-4182-4277-a737-ba8536f263bc" />
 
+- alert not found exception will get if alert is not there
 
+# Authenticated popup
+<img width="1294" height="398" alt="image" src="https://github.com/user-attachments/assets/97f3fea2-7618-41bc-bd4c-2c4111dc980c" />
 
 
 
