@@ -131,5 +131,11 @@ to ensure nothing else broke
 # Authenticated popup
 <img width="1294" height="398" alt="image" src="https://github.com/user-attachments/assets/97f3fea2-7618-41bc-bd4c-2c4111dc980c" />
 
+<img width="1079" height="525" alt="image" src="https://github.com/user-attachments/assets/ec310cba-0d8c-4bb3-b926-82d21201815d" />
 
+<img width="1029" height="367" alt="image" src="https://github.com/user-attachments/assets/9c04b3d8-7d12-4a00-a55a-c4f3cefb1779" />
+
+<img width="1053" height="407" alt="image" src="https://github.com/user-attachments/assets/baf7dbe7-b3fd-40be-b485-8a9fdccb4392" />
+
+<img width="1031" height="288" alt="image" src="https://github.com/user-attachments/assets/08083a7b-b57d-4ebf-a680-7cef6e1a5456" />
 
