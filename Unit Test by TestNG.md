@@ -1,7 +1,5 @@
 
 - **TestNG** is designed to cover all categories of tests: unit, functional, end-to-end, integration, etc.
-- `https://chatgpt.com/c/698b2e92-17e4-8321-9cd0-6915bf34b819`
----
 
 * TestNG turns the normal java method into a test case using annotations `@Test`
 - Method must be public
