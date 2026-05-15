@@ -139,3 +139,27 @@ to ensure nothing else broke
 
 <img width="1031" height="288" alt="image" src="https://github.com/user-attachments/assets/08083a7b-b57d-4ebf-a680-7cef6e1a5456" />
 
+- JavaScript is an interface
+- click method interanlly use JS for interaction with the Browser (only understand HTML & JS)
+- If click method unable to communicate with the JS than elementInterceptException occure
+- directly use the JS by executeScript()
+- sendKeys & click (only action methods)
+
+<img width="863" height="209" alt="image" src="https://github.com/user-attachments/assets/158ec136-e0e2-4a87-8969-853aeb9405ed" />
+
+<img width="839" height="306" alt="image" src="https://github.com/user-attachments/assets/427d203d-4a99-43cc-964a-0d47c792ee19" />
+
+<img width="836" height="287" alt="image" src="https://github.com/user-attachments/assets/585d01a0-9182-4391-8bfd-a69d0c737c1b" />
+
+<img width="919" height="399" alt="image" src="https://github.com/user-attachments/assets/a8e511d7-e47b-4939-92a1-b7f32a866172" />
+
+<img width="836" height="346" alt="image" src="https://github.com/user-attachments/assets/2a97bab4-8c16-4b0e-a769-5168402762ad" />
+
+
+
+
+
+
+
+<img width="1042" height="562" alt="image" src="https://github.com/user-attachments/assets/8fbcafc8-5585-44d7-b777-d11179df15af" />
+
