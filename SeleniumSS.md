@@ -153,9 +153,18 @@ to ensure nothing else broke
 
 <img width="919" height="399" alt="image" src="https://github.com/user-attachments/assets/a8e511d7-e47b-4939-92a1-b7f32a866172" />
 
+- POM -> Page Object Model is a design pattern in which we will maintain the locator, web elements, test method in separate
+
+<img width="1182" height="558" alt="image" src="https://github.com/user-attachments/assets/0a67a962-0502-41b2-b94e-354c34aaa3e7" />
+
+<img width="1176" height="574" alt="image" src="https://github.com/user-attachments/assets/1802b1cf-adc7-4ba6-a4bb-a88c052fcc0f" />
+
+<img width="966" height="275" alt="image" src="https://github.com/user-attachments/assets/19aa684b-8048-4bac-84f8-7cdc322e4f56" />
+
+<img width="966" height="275" alt="image" src="https://github.com/user-attachments/assets/521c5cf9-88b5-4ce6-8844-dd6ab0072834" />
 
 
-
+<img width="1252" height="922" alt="image" src="https://github.com/user-attachments/assets/ff42de9b-e926-4f06-93f9-a51ab07c1367" />
 
 
 
