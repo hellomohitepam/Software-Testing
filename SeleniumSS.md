@@ -102,6 +102,10 @@ to ensure nothing else broke
 
 <img width="1252" height="591" alt="image" src="https://github.com/user-attachments/assets/78392547-67bd-4ba5-9bff-4c8036fe4f81" />
 
+<img width="1400" height="536" alt="image" src="https://github.com/user-attachments/assets/b12ab687-27b4-4b2b-8f62-76f7ab800375" />
+
+<img width="1635" height="797" alt="image" src="https://github.com/user-attachments/assets/a5de3d8c-c69e-4160-b300-926646fdbceb" />
+
 - where Ever webElement have syncronization problem then use explicit wait else just use driver.findElement(locator)
 - first it will check the condtion and then start waiting of the element
 - Implicit wait and explicit wait have chance of getting exception we need to handle them by try catch block
@@ -116,9 +120,6 @@ to ensure nothing else broke
 | `alertIsPresent()`                  | Alerts                    |
 | `textToBePresentInElement()`        | Validation                |
 | `stalenessOf()`                     | Page refresh/AJAX updates |
-
-
-<img width="1400" height="536" alt="image" src="https://github.com/user-attachments/assets/b12ab687-27b4-4b2b-8f62-76f7ab800375" />
 
 <img width="1614" height="840" alt="image" src="https://github.com/user-attachments/assets/6deb14ad-a640-4537-9453-998c025ababa" />
 
