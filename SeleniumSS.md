@@ -137,6 +137,8 @@ to ensure nothing else broke
 
 - alerts windows are not webElement
 
+<img width="1036" height="306" alt="image" src="https://github.com/user-attachments/assets/f3faf5aa-d346-47b2-abb4-91f20a89f2b4" />
+
 <img width="1419" height="542" alt="image" src="https://github.com/user-attachments/assets/b956819c-0bbb-4027-b160-3225352e72ee" />
 
 <img width="1389" height="271" alt="image" src="https://github.com/user-attachments/assets/49902b86-c2ea-4784-83d9-d5863225d24e" />
