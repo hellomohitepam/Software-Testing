@@ -153,8 +153,9 @@ to ensure nothing else broke
 | New tab/window popup   | ✅ Yes                 | OAuth login, child window | Use `getWindowHandles()` and switch window |
 | JavaScript alert       | ❌ No                  | `alert()`, `confirm()`    | Use `switchTo().alert()`                   |
 
-
 <img width="1661" height="466" alt="image" src="https://github.com/user-attachments/assets/089fa14f-478a-4e89-aa24-a57e91e0888e" />
+
+<img width="1602" height="707" alt="image" src="https://github.com/user-attachments/assets/c04ae0b4-d51a-452b-ad39-685be2e8f619" />
 
 <img width="1079" height="525" alt="image" src="https://github.com/user-attachments/assets/ec310cba-0d8c-4bb3-b926-82d21201815d" />
 
