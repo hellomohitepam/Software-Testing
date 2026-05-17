@@ -147,7 +147,12 @@ to ensure nothing else broke
 
 - alert not found exception will get if alert is not there
 
-# popup
+| Type                   | Window Handle Needed?   | Example                   | How to Handle                              |
+| ---------------------- | ----------------------- | ------------------------- | ------------------------------------------ |
+| Modal (HTML/CSS popup) | ❌ No                  | DemoQA modal              | Use normal `findElement()` methods         |
+| New tab/window popup   | ✅ Yes                 | OAuth login, child window | Use `getWindowHandles()` and switch window |
+| JavaScript alert       | ❌ No                  | `alert()`, `confirm()`    | Use `switchTo().alert()`                   |
+
 
 <img width="1661" height="466" alt="image" src="https://github.com/user-attachments/assets/089fa14f-478a-4e89-aa24-a57e91e0888e" />
 
