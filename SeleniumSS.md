@@ -165,6 +165,11 @@ to ensure nothing else broke
 
 <img width="1031" height="288" alt="image" src="https://github.com/user-attachments/assets/08083a7b-b57d-4ebf-a680-7cef6e1a5456" />
 
+<img width="1456" height="664" alt="image" src="https://github.com/user-attachments/assets/c583487f-b5ac-4c94-bfde-00a1336de55a" />
+
+<img width="1490" height="489" alt="image" src="https://github.com/user-attachments/assets/7961b2f0-5f97-42e5-8e24-cc6c9f58ff0a" />
+
+
 - JavaScript is an interface
 - click method interanlly use JS for interaction with the Browser (only understand HTML & JS)
 - If click method unable to communicate with the JS than elementInterceptException occure
