@@ -147,8 +147,9 @@ to ensure nothing else broke
 
 - alert not found exception will get if alert is not there
 
-# Authenticated popup
-<img width="1294" height="398" alt="image" src="https://github.com/user-attachments/assets/97f3fea2-7618-41bc-bd4c-2c4111dc980c" />
+# popup
+
+<img width="1661" height="466" alt="image" src="https://github.com/user-attachments/assets/089fa14f-478a-4e89-aa24-a57e91e0888e" />
 
 <img width="1079" height="525" alt="image" src="https://github.com/user-attachments/assets/ec310cba-0d8c-4bb3-b926-82d21201815d" />
 
