@@ -175,6 +175,7 @@ to ensure nothing else broke
 - If click method unable to communicate with the JS than elementInterceptException occure
 - directly use the JS by executeScript()
 - sendKeys & click (only action methods)
+- Standard Selenium click() may fail if the element is hidden, overlapped, or not directly interactable. JavaScriptExecutor bypasses these limitations by executing JavaScript directly in the browser.
 
 <img width="836" height="346" alt="image" src="https://github.com/user-attachments/assets/2a97bab4-8c16-4b0e-a769-5168402762ad" />
 
