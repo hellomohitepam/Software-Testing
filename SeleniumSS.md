@@ -195,12 +195,20 @@ to ensure nothing else broke
 
 <img width="966" height="275" alt="image" src="https://github.com/user-attachments/assets/521c5cf9-88b5-4ce6-8844-dd6ab0072834" />
 
-
+ 
 <img width="1252" height="922" alt="image" src="https://github.com/user-attachments/assets/ff42de9b-e926-4f06-93f9-a51ab07c1367" />
 
-
-
-
-
 <img width="1042" height="562" alt="image" src="https://github.com/user-attachments/assets/8fbcafc8-5585-44d7-b777-d11179df15af" />
+
+<img width="677" height="525" alt="image" src="https://github.com/user-attachments/assets/2e11c2dc-035c-4ea5-a281-6e0c1a65910f" />
+
+- when you want to execute your test cases on different browser and Operating system then you use selenium grid
+- Grid -> Where you have written your test cases and controlling execution that is called Hub.
+- Node -> where you want to execute your test cases (different browser & different OS)
+- Hub knows abut every node so if we want OS(MAC) & Browser(Chrome) then hub detect the node having OS(MAC) and run test cases on Chrome
+- all are connected to the single environment
+- StandAlone -> Hub and Nodes are in Single Machine
+- Distributed -> Node are on diff Machine
+
+  <img width="786" height="434" alt="image" src="https://github.com/user-attachments/assets/9d62e29d-1cdc-4e8d-b358-0de9d32dca7f" />
 
