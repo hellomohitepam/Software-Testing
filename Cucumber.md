@@ -16,3 +16,10 @@
 - BDD is an approach (or methodology), and Cucumber is a tool that implements BDD.
 
 <img width="1095" height="295" alt="image" src="https://github.com/user-attachments/assets/c968498f-2b75-453c-a838-f176e752726f" />
+
+- Feature file can be created by test engineer, product managers, product owners
+- feature name and then it conatins scenarios and then steps of each scenario by gerkin keywords
+
+- step defination file contains method for every feature file
+
+- Test Runner (used to run multiple feature file) files will talk to the feature file steps will be read and then step defination code will run.
