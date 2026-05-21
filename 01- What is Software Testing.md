@@ -15,7 +15,9 @@
 - Failure: After giving the software to the customer and then we are getting some defects and something not working that comes under failure (in prod or customer environment)
 
 <img width="898" height="440" alt="image" src="https://github.com/user-attachments/assets/df4fa15e-a55f-4872-b3de-ff9d342112de" />
+
 - using SDLC companies design their own process models
+
 <img width="893" height="529" alt="image" src="https://github.com/user-attachments/assets/d3d77d66-efc2-494e-a3c6-a6b28bfc8cbf" />
 
 - Project manager & Product manager will talk to the custome and ask for the requirements and makes a SRS (software requirement specifications) and document.
