@@ -40,13 +40,23 @@
 <img width="804" height="334" alt="image" src="https://github.com/user-attachments/assets/808b51d8-a3d5-4b16-a650-cd6b71982cab" />
 <img width="966" height="325" alt="image" src="https://github.com/user-attachments/assets/69763780-7f79-4883-9f30-c0f4781038e3" />
 
-<img width="1261" height="336" alt="image" src="https://github.com/user-attachments/assets/b43fd3bd-52fd-43ec-81e2-b83e73881f71" />
 <img width="1125" height="243" alt="image" src="https://github.com/user-attachments/assets/e58b4f2a-858b-459a-a3a2-5439f3d4b55d" />
+<img width="1261" height="336" alt="image" src="https://github.com/user-attachments/assets/b43fd3bd-52fd-43ec-81e2-b83e73881f71" />
 
+<img width="1079" height="442" alt="image" src="https://github.com/user-attachments/assets/33083a8b-8eac-4cf8-86d0-fef8b7aa2786" />
 
+- QE : Quality Engineering (Automation Testing) comes under QC
 
+<img width="1249" height="174" alt="image" src="https://github.com/user-attachments/assets/850aaa4e-4106-4eea-8aec-05bbfad1d1ed" />
 
+<img width="1252" height="333" alt="image" src="https://github.com/user-attachments/assets/b3f24082-f2ee-4744-b813-ec79d93edd84" />
+<img width="1048" height="273" alt="image" src="https://github.com/user-attachments/assets/2207365a-a3d4-4a7e-a903-c1ff23b6110d" />
 
+<img width="1253" height="448" alt="image" src="https://github.com/user-attachments/assets/16ec1f69-f28a-46ee-ba7e-e98a76870909" />
+<img width="1246" height="196" alt="image" src="https://github.com/user-attachments/assets/6936a163-f80e-48d0-a6e7-ddc6af726efa" />
+
+<img width="1162" height="340" alt="image" src="https://github.com/user-attachments/assets/3dc6c75a-43bd-46a1-b553-e3b9086a1156" />
+<img width="1196" height="152" alt="image" src="https://github.com/user-attachments/assets/4b5615b5-0681-4ffa-a846-4115c39abc6f" />
 
 Software testing methodologies can broadly be classified into:
 - White Box Testing
