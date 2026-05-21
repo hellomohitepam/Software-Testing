@@ -33,7 +33,6 @@
 - Prototype model: come Between waterfall model and a spiral model, We can accommodate new requirements in between, There is no iteration, give one prototype(blueprint of software)
 <img width="927" height="66" alt="image" src="https://github.com/user-attachments/assets/e096a7e2-e2bf-4e38-8f7a-53724bbb01ab" />
 
-<img width="947" height="534" alt="image" src="https://github.com/user-attachments/assets/8cdb878c-c5c8-4251-a877-1ccc190b3a41" />
 <img width="1045" height="536" alt="image" src="https://github.com/user-attachments/assets/61dabae6-bd79-498a-9638-e64f805154da" />
 <img width="648" height="167" alt="image" src="https://github.com/user-attachments/assets/1b6fbdc6-e3c4-4b13-b561-3af063a610d0" />
 <img width="804" height="334" alt="image" src="https://github.com/user-attachments/assets/808b51d8-a3d5-4b16-a650-cd6b71982cab" />
