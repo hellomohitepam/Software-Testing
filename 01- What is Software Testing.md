@@ -40,6 +40,13 @@
 <img width="804" height="334" alt="image" src="https://github.com/user-attachments/assets/808b51d8-a3d5-4b16-a650-cd6b71982cab" />
 <img width="966" height="325" alt="image" src="https://github.com/user-attachments/assets/69763780-7f79-4883-9f30-c0f4781038e3" />
 
+<img width="1261" height="336" alt="image" src="https://github.com/user-attachments/assets/b43fd3bd-52fd-43ec-81e2-b83e73881f71" />
+<img width="1125" height="243" alt="image" src="https://github.com/user-attachments/assets/e58b4f2a-858b-459a-a3a2-5439f3d4b55d" />
+
+
+
+
+
 
 Software testing methodologies can broadly be classified into:
 - White Box Testing
