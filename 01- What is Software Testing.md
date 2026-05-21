@@ -1,5 +1,7 @@
 # Software Testing Notes
 
+<img width="1114" height="587" alt="image" src="https://github.com/user-attachments/assets/a1f97e2b-80e0-44ea-99fc-feea74ad9f08" />
+
 ## What is Testing in Software Engineering
 
 Testing in Software Engineering is the process of evaluating a software product to determine whether it meets the specified requirements and to identify defects, gaps, or missing requirements.
