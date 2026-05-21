@@ -2,6 +2,18 @@
 
 <img width="1114" height="587" alt="image" src="https://github.com/user-attachments/assets/a1f97e2b-80e0-44ea-99fc-feea74ad9f08" />
 
+<img width="1181" height="452" alt="image" src="https://github.com/user-attachments/assets/4a7231ce-305d-4834-9227-f28184897d1e" />
+
+<img width="1215" height="368" alt="image" src="https://github.com/user-attachments/assets/44535068-0781-4b94-84dc-9b35f106ec86" />
+
+<img width="1248" height="152" alt="image" src="https://github.com/user-attachments/assets/a6545ede-7a36-4583-a6ca-659586f2c637" />
+
+<img width="1176" height="182" alt="image" src="https://github.com/user-attachments/assets/28f546c5-6ed4-4ab4-b9ea-4c93b34b24b6" />
+
+- Error: While writing the program developer did some mistakes that is called error (done by developers)
+- Bug/Defect: While testing application if something is not working according to the customer requirement that is called bug/defect. (identify by the testers)
+- Failure: After giving the software to the customer and then we are getting some defects and something not working that comes under failure (in prod or customer environment)
+
 ## What is Testing in Software Engineering
 
 Testing in Software Engineering is the process of evaluating a software product to determine whether it meets the specified requirements and to identify defects, gaps, or missing requirements.
