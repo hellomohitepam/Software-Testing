@@ -1,4 +1,4 @@
-# Software Testing Notes
+<img width="927" height="66" alt="image" src="https://github.com/user-attachments/assets/f48d5c25-a5bf-436c-9ccf-af06884781a0" /># Software Testing Notes
 
 <img width="1114" height="587" alt="image" src="https://github.com/user-attachments/assets/a1f97e2b-80e0-44ea-99fc-feea74ad9f08" />
 
@@ -14,9 +14,31 @@
 - Bug/Defect: While testing application if something is not working according to the customer requirement that is called bug/defect. (identify by the testers)
 - Failure: After giving the software to the customer and then we are getting some defects and something not working that comes under failure (in prod or customer environment)
 
-## What is Testing in Software Engineering
+<img width="898" height="440" alt="image" src="https://github.com/user-attachments/assets/df4fa15e-a55f-4872-b3de-ff9d342112de" />
+- using SDLC companies design their own process models
+<img width="893" height="529" alt="image" src="https://github.com/user-attachments/assets/d3d77d66-efc2-494e-a3c6-a6b28bfc8cbf" />
 
-Testing in Software Engineering is the process of evaluating a software product to determine whether it meets the specified requirements and to identify defects, gaps, or missing requirements.
+- Project manager & Product manager will talk to the custome and ask for the requirements and makes a SRS (software requirement specifications) and document.
+- Based on the requirement document designers will create high level design or low level design
+- Each and every phase have some input and output
+  - customer requirement -> SRS -> Design document -> software -> Quality check -> installation doc, functional flow
+
+<img width="1062" height="428" alt="image" src="https://github.com/user-attachments/assets/b9991a6c-8c28-48c8-b364-3412a593da1a" />
+<img width="1248" height="210" alt="image" src="https://github.com/user-attachments/assets/38ae654a-6e82-4aca-a5be-6c7d7a60c0c5" />
+
+<img width="902" height="560" alt="image" src="https://github.com/user-attachments/assets/b95e9c04-e886-4d2e-a3cb-62d47392ca9d" />
+<img width="934" height="358" alt="image" src="https://github.com/user-attachments/assets/e71ab434-49cd-41c3-a11e-1febb086f981" />
+<img width="1115" height="140" alt="image" src="https://github.com/user-attachments/assets/b2edd84e-a360-41c5-a490-7b2d75a75b0a" />
+
+- Prototype model: come Between waterfall model and a spiral model, We can accommodate new requirements in between, There is no iteration, give one prototype(blueprint of software)
+<img width="927" height="66" alt="image" src="https://github.com/user-attachments/assets/e096a7e2-e2bf-4e38-8f7a-53724bbb01ab" />
+
+<img width="947" height="534" alt="image" src="https://github.com/user-attachments/assets/8cdb878c-c5c8-4251-a877-1ccc190b3a41" />
+<img width="1045" height="536" alt="image" src="https://github.com/user-attachments/assets/61dabae6-bd79-498a-9638-e64f805154da" />
+<img width="648" height="167" alt="image" src="https://github.com/user-attachments/assets/1b6fbdc6-e3c4-4b13-b561-3af063a610d0" />
+<img width="804" height="334" alt="image" src="https://github.com/user-attachments/assets/808b51d8-a3d5-4b16-a650-cd6b71982cab" />
+<img width="966" height="325" alt="image" src="https://github.com/user-attachments/assets/69763780-7f79-4883-9f30-c0f4781038e3" />
+
 
 Software testing methodologies can broadly be classified into:
 - White Box Testing
