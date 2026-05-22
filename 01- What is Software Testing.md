@@ -71,6 +71,15 @@
 
 <img width="1023" height="650" alt="image" src="https://github.com/user-attachments/assets/fac4cf90-b3c2-42b8-b79d-474905e634ed" />
 
+- once the functionality is stable then we do non-functional testing
+
+<img width="1104" height="677" alt="image" src="https://github.com/user-attachments/assets/eb943251-f2a6-4f17-8961-2616ebe9425e" />
+
+<img width="1659" height="827" alt="image" src="https://github.com/user-attachments/assets/a5ffc20b-419d-49a9-9549-3862aa522694" />
+
+<img width="1464" height="935" alt="image" src="https://github.com/user-attachments/assets/3a5ba298-49f9-4336-b281-80353107ff7d" />
+
+
 Software testing methodologies can broadly be classified into:
 - White Box Testing
 - Black Box Testing
