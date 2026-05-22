@@ -1,4 +1,4 @@
-<img width="927" height="66" alt="image" src="https://github.com/user-attachments/assets/f48d5c25-a5bf-436c-9ccf-af06884781a0" /># Software Testing Notes
+# Software Testing Notes
 
 <img width="1114" height="587" alt="image" src="https://github.com/user-attachments/assets/a1f97e2b-80e0-44ea-99fc-feea74ad9f08" />
 
