@@ -58,6 +58,19 @@
 <img width="1162" height="340" alt="image" src="https://github.com/user-attachments/assets/3dc6c75a-43bd-46a1-b553-e3b9086a1156" />
 <img width="1196" height="152" alt="image" src="https://github.com/user-attachments/assets/4b5615b5-0681-4ffa-a846-4115c39abc6f" />
 
+<img width="969" height="637" alt="image" src="https://github.com/user-attachments/assets/a044d278-d575-4c72-9253-14693599573b" />
+
+- testing the system based on Customer hardware requirement.
+- non-functional testing require different envirnoment & skill set
+
+<img width="1108" height="631" alt="image" src="https://github.com/user-attachments/assets/3b9a3154-a47e-4b69-a8cf-2fef9f98207d" />
+
+<img width="1030" height="665" alt="image" src="https://github.com/user-attachments/assets/5cd04856-c7af-4074-8548-338998b0996a" />
+
+<img width="1071" height="631" alt="image" src="https://github.com/user-attachments/assets/f295fbf8-9ff3-4c30-9a66-39f2eebb02ff" />
+
+<img width="1023" height="650" alt="image" src="https://github.com/user-attachments/assets/fac4cf90-b3c2-42b8-b79d-474905e634ed" />
+
 Software testing methodologies can broadly be classified into:
 - White Box Testing
 - Black Box Testing
