@@ -137,6 +137,55 @@
 
 <img width="1204" height="563" alt="image" src="https://github.com/user-attachments/assets/26718e2d-57f4-47dc-8d17-8212c02f6503" />
 
+<img width="1498" height="856" alt="image" src="https://github.com/user-attachments/assets/5e3cf4bd-1f6b-4f06-9067-a3f45853a4aa" />
+
+<img width="1143" height="674" alt="image" src="https://github.com/user-attachments/assets/8c8a1b4c-8693-4b74-a28f-fbeff4d1ec26" />
+
+<img width="1053" height="237" alt="image" src="https://github.com/user-attachments/assets/76449653-3d6f-44e3-92c9-e27438efaccd" />
+
+<img width="945" height="350" alt="image" src="https://github.com/user-attachments/assets/d559c9d0-2c44-4759-ab16-e754ebb81f62" />
+
+<img width="786" height="544" alt="image" src="https://github.com/user-attachments/assets/1507cf21-2f5f-431f-93c9-44dd1099db9f" />
+<img width="1022" height="80" alt="image" src="https://github.com/user-attachments/assets/cda61e49-04a1-4d4b-a57a-6c63b3dfc1af" />
+
+<img width="491" height="600" alt="image" src="https://github.com/user-attachments/assets/53891241-5fb6-4bf1-99c2-2791dda68a8b" />
+
+- use case is simply a picture or data flow diagram by which we understand the requirement more clear
+- specify in the FRS document
+
+<img width="1033" height="609" alt="image" src="https://github.com/user-attachments/assets/a43c5127-d170-47b0-a830-d3fed176c619" />
+
+<img width="1005" height="510" alt="image" src="https://github.com/user-attachments/assets/fbd32ad4-53c4-4932-8ee1-cad11e0ff398" />
+
+- one Req. ID can have multiple Test case ID
+
+<img width="1044" height="400" alt="image" src="https://github.com/user-attachments/assets/898b525e-c99a-4f1a-b6d6-dc72f6a638a9" />
+
+- real enviroment means customer environment
+
+<img width="1002" height="580" alt="image" src="https://github.com/user-attachments/assets/46ab8142-1970-4ac5-bfa0-57b8390377d0" />
+
+<img width="1056" height="451" alt="image" src="https://github.com/user-attachments/assets/2199b3a8-4dab-4f39-87ed-82d5a14b9a93" />
+
+<img width="1077" height="583" alt="image" src="https://github.com/user-attachments/assets/b1718314-515c-4381-b143-a919ab0f7a2b" />
+
+<img width="1048" height="629" alt="image" src="https://github.com/user-attachments/assets/ca3a50ed-52b3-4fff-873f-c8f94ccd278d" />
+
+<img width="1085" height="522" alt="image" src="https://github.com/user-attachments/assets/b253656e-2569-4f27-a158-faf8318a44ee" />
+
+<img width="1024" height="627" alt="image" src="https://github.com/user-attachments/assets/d3e242d6-d5ef-425d-b46d-cd0d79772867" />
+
+<img width="1030" height="459" alt="image" src="https://github.com/user-attachments/assets/ba91c87e-9e73-41ac-a086-a5afadf652d5" />
+
+- Sevearity - tells the seriousness of the defect how much business will going to effect (only responsible for tester)
+- Priority - tells the importance of the defect, how soon the bug fixed (can be change by developer and PO)
+
+<img width="1012" height="489" alt="image" src="https://github.com/user-attachments/assets/cc6aec64-d60d-4472-a04b-76d3db16ac7c" />
+
+<img width="1047" height="525" alt="image" src="https://github.com/user-attachments/assets/8ef243dd-28aa-4531-bf3e-ff4a8136f4c1" />
+
+<img width="1032" height="606" alt="image" src="https://github.com/user-attachments/assets/6a028fc7-7ed8-41dc-8bea-2330418c9d89" />
+
 Software testing methodologies can broadly be classified into:
 - White Box Testing
 - Black Box Testing
