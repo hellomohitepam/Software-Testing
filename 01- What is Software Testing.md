@@ -79,6 +79,57 @@
 
 <img width="1464" height="935" alt="image" src="https://github.com/user-attachments/assets/3a5ba298-49f9-4336-b281-80353107ff7d" />
 
+<img width="995" height="509" alt="image" src="https://github.com/user-attachments/assets/05bf3f15-1c8a-478f-9ebf-b5f416f0bf99" />
+
+<img width="1059" height="566" alt="image" src="https://github.com/user-attachments/assets/1fdfa58d-172e-4739-b702-f81e4ca1347f" />
+
+<img width="1014" height="542" alt="image" src="https://github.com/user-attachments/assets/f05bc6a5-1641-4a16-852d-885d3edcdd0a" />
+
+- Whether changes in a single unit/module/component have affected that same unit.
+- Whether changes in one module have impacted related areas/connected modules of the application.
+
+<img width="1068" height="517" alt="image" src="https://github.com/user-attachments/assets/195a3b13-8bc5-4a89-a704-9f36f5c3b16d" />
+
+- Smoke testing, checks the build is stable or not in the QA environment
+- basic navigation working or not like opening the home page
+- after build is stable then we do basic funtionality testing called sanity testing
+
+<img width="965" height="558" alt="image" src="https://github.com/user-attachments/assets/b7daaea8-89ca-487c-87fd-7586c206e0f8" />
+
+<img width="1028" height="522" alt="image" src="https://github.com/user-attachments/assets/cd87bb3e-9af5-439c-be6d-cd7cd5a618ff" />
+
+<img width="1076" height="636" alt="image" src="https://github.com/user-attachments/assets/1aa00923-a35d-4c13-868d-b8697ffccced" />
+
+<img width="1036" height="352" alt="image" src="https://github.com/user-attachments/assets/d457af4e-bd30-4f00-9dea-1740ec64ac96" />
+
+<img width="1171" height="499" alt="image" src="https://github.com/user-attachments/assets/6e625c37-99ae-4bdd-93ca-4c48cdda00cd" />
+
+<img width="857" height="102" alt="image" src="https://github.com/user-attachments/assets/c5a3f019-ee26-4b9e-b9f7-1bd885daf0d4" />
+<img width="1013" height="123" alt="image" src="https://github.com/user-attachments/assets/cb1ec889-a3ff-4a5d-8f0e-e6a592811ff6" />
+
+<img width="1191" height="585" alt="image" src="https://github.com/user-attachments/assets/b3e6e714-aab0-4fda-afcb-4d33a17a8045" />
+
+<img width="1050" height="649" alt="image" src="https://github.com/user-attachments/assets/d024a14f-2bc1-4654-aa97-a5f0f5575043" />
+
+<img width="795" height="532" alt="image" src="https://github.com/user-attachments/assets/19ca6716-a3fa-434c-825e-7bb56a943b54" />
+
+<img width="1173" height="636" alt="image" src="https://github.com/user-attachments/assets/3c0c5d17-c215-4611-a403-b3ac43d83c68" />
+
+<img width="966" height="613" alt="image" src="https://github.com/user-attachments/assets/2b09cbb6-bd9f-470e-91ed-8a749c0860fb" />
+
+- input domain techniques are ECP & BVA
+
+<img width="1079" height="407" alt="image" src="https://github.com/user-attachments/assets/573baf71-9004-4d84-864f-a0742e024dee" />
+
+<img width="1092" height="534" alt="image" src="https://github.com/user-attachments/assets/45ff17f1-de01-461a-bb55-10a46855a164" />
+
+<img width="1225" height="263" alt="image" src="https://github.com/user-attachments/assets/423f71ed-ba7f-47bf-a518-bc42c82418f8" />
+
+<img width="1113" height="536" alt="image" src="https://github.com/user-attachments/assets/0787bb5f-a4ab-4578-91f4-9734631405ec" />
+
+<img width="1211" height="509" alt="image" src="https://github.com/user-attachments/assets/03c3a7ec-3cfc-4619-b478-02dc6282f297" />
+
+<img width="1088" height="429" alt="image" src="https://github.com/user-attachments/assets/bfb65235-1a33-4f00-bf08-c50e1128b7e3" />
 
 Software testing methodologies can broadly be classified into:
 - White Box Testing
