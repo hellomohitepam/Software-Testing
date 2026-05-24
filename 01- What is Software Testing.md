@@ -131,6 +131,12 @@
 
 <img width="1088" height="429" alt="image" src="https://github.com/user-attachments/assets/bfb65235-1a33-4f00-bf08-c50e1128b7e3" />
 
+<img width="945" height="640" alt="image" src="https://github.com/user-attachments/assets/c438bd16-5bf3-4dc4-a459-4c548f0eea7a" />
+
+- defact/bug reporting is a part of Test execution
+
+<img width="1204" height="563" alt="image" src="https://github.com/user-attachments/assets/26718e2d-57f4-47dc-8d17-8212c02f6503" />
+
 Software testing methodologies can broadly be classified into:
 - White Box Testing
 - Black Box Testing
