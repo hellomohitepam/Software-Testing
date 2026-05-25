@@ -186,6 +186,14 @@
 
 <img width="1032" height="606" alt="image" src="https://github.com/user-attachments/assets/6a028fc7-7ed8-41dc-8bea-2330418c9d89" />
 
+<img width="1073" height="567" alt="image" src="https://github.com/user-attachments/assets/e23d2fe8-b0e7-4a38-be0d-bf7fd9cc7912" />
+
+- some time tester -> test manager -> devlop manager -> developer
+
+<img width="1197" height="670" alt="image" src="https://github.com/user-attachments/assets/9274a2e2-dc65-4bd8-a82d-9bb8b52d23d2" />
+
+
+
 Software testing methodologies can broadly be classified into:
 - White Box Testing
 - Black Box Testing
