@@ -98,6 +98,21 @@ to ensure nothing else broke
 
 <img width="1446" height="635" alt="image" src="https://github.com/user-attachments/assets/bb1125c1-e3c1-4305-819b-4f08a90f0880" />
 
+- Mixing implicit and explicit waits is not recommended because explicit wait internally uses findElement(), and implicit wait applies to every findElement() call. This can increase total wait time unpredictably.
+- 0.5sec polling will happen for explicit wait and when condition meet then returns the element
+- implicitWait depends on the driver not on the class
+
+# How to Identify Which Element Needs Wait
+## Ask yourself Does this element:
+- appear after some delay?
+- depend on API response?
+- animate?
+- become enabled later?
+- sometimes fail intermittently?
+- throw stale/interactable/click exceptions?
+> If YES → use explicit wait.
+> before click, before sendKeys
+
 <img width="1425" height="542" alt="image" src="https://github.com/user-attachments/assets/c21716b5-5766-4af8-97c9-aed67ef414e2" />
 
 <img width="1252" height="591" alt="image" src="https://github.com/user-attachments/assets/78392547-67bd-4ba5-9bff-4c8036fe4f81" />
